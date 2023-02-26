@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Container from './components/Container/Container';
+import NavBar from './components/NavBar/NavBar';
+
 function App() {
   return (
     <div className="App">
    
       <h1>Hello</h1>
+      <Container>
+        <NavBar/>
+      </Container>
     </div>
   );
 }
