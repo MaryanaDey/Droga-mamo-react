@@ -1,18 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
-import Container from './components/Container/Container';
-import NavBar from './components/NavBar/NavBar';
+import { Routes, Route, useLocation } from 'react-router-dom';
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-   
-      <h1>Hello</h1>
-      <Container>
-        <NavBar/>
-      </Container>
-    </div>
+    <>
+      <Routes>
+        <Route />
+    </Routes>
+    </>
   );
 }
 
